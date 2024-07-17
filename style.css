@@ -1,0 +1,465 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    margin:0%;
+    padding:0%;
+    background-color: black;
+    
+}
+header{
+    width:100%;
+    background-color:rgba(148, 0, 211,0.5);
+    height:80px ;
+}
+
+.logo h1{
+   display: flex;
+    text-align: left;
+    margin-left: 10px;
+    
+
+}
+
+
+.navbar{
+    display:flex;
+   justify-content: space-between;
+   
+   height:50px;
+   position: relative;
+   
+}
+.navbar nav {
+    display:flex;
+   margin-inline: 30px;
+   margin-top: 26px;
+   position: relative;
+    margin-left:42%;
+  
+
+   
+}
+.navbar nav li{
+    list-style-type: none;
+}
+.navbar nav li a{
+    font-size: 22px;
+    margin-inline: 10px;
+    color: white;
+    font-weight: 600;
+   
+    
+}
+
+.navbar .login {
+    margin-right:185px;
+    margin-top: 16px;
+     position:relative;
+    text-align: center;
+    padding:5px 15px;
+    
+}
+.navbar .sign{
+    position: absolute;
+    display: flex-end;
+    margin-left:92%;
+    margin-top: 15px;
+    background-color: black;
+    width:100px;
+}
+    
+
+   
+  
+  
+   
+
+
+
+   
+
+
+
+
+.logo h1{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.main{
+    color:white;
+    margin: 80px 10px;
+   display: flex;
+   
+   
+  
+    
+}
+
+.mainText{
+display: block;
+justify-content: left;
+margin-left: 5px;
+margin-top: 20px;
+}
+.mainText h1{
+    font-size: 40px;
+}
+.mainText h2{
+    text-align: left;
+   margin-right: 150px;
+   font-size: 35px;
+
+}
+.mainText p{
+    font-size:25px;
+    margin:25px 2px;
+    
+}
+
+.Home{
+    margin-left: 200px;
+   margin-right:100px;
+   padding-top: 30px;
+   
+    
+}
+.Home img{
+  width: 100%;
+  height:100%;
+}
+
+.main h2{
+    color:aqua;
+}
+
+
+.head {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.food-card{
+    position:relative;
+    color:white;
+}
+.login button{
+
+}
+
+p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.card-container{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    
+}
+.card{
+    
+
+    width:350px;
+    height:600px;
+    border:3px solid white;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+img{
+    width:350px;
+    height:250px;
+}
+
+.orderbtn button{
+    margin: auto;
+   display: flex;
+   background-color:yellow;
+   border-radius: 5px;
+   font-size: 19px;
+   border:none;
+   font-weight: 600;
+   color: black;
+   justify-content: center;
+   margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 5px;
+    
+    
+}
+.About-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#About h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+    color: white;
+}
+
+.about h1{
+   text-align: center;
+   color:orange;
+   font-size: 35px;
+  
+}
+.about h2{
+    color:white;
+    padding: 10px 5px;
+}
+.about{
+justify-content: left;
+width:800px;
+
+
+
+
+
+
+}
+.about h1{
+    font-size: 25px;
+   text-align: left;
+   margin-top: 2px;
+  
+
+}
+
+.restaurant{
+    margin: 30px 60px;
+    width: 500px;
+    height: 300px;
+}
+.restaurant img{
+    width:500px;
+    height:300px;
+}
+
+.row2{
+    display:flex;
+    position: relative;
+    margin: 35px 200px;
+}
+.card{
+    width:350px;
+    height:600px;
+    border:2px solid white;
+   margin-right: 30px;
+   border:3px solid white;
+   border-radius: 5px;
+    
+}
+
+.restaurant{
+
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.review{
+    display:flex;
+    margin-left: 50px;
+}
+
+.customer{
+    
+    padding-left: 30px;
+    width:250px;
+    height:600px;
+    
+    justify-content:center;
+    margin-right: 30px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.customer img{
+    width:200px;
+    height:200px;
+   border:2px solid white;
+   border-radius: 50%;
+   margin-top: 20px;
+  
+   
+   
+}
+.customer p{
+    display:flex;
+    text-decoration: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
+    padding: 10px 10px;
+    color: white;
+    
+}
+.customer i{
+font-size: 22px;
+color: greenyellow;
+margin-top: 11px;
+text-align: center;
+padding-left: 10px;
+}
+.Reservation-card{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.card-content{
+    width:600px;
+    height:450px;
+    margin-right:200px;
+    margin-top: 60px;
+    border: 2px solid white;
+}
+.card-content h3{
+    color: aqua;
+}
+.card-img {
+    margin: auto;
+    
+}
+
+.card-img img{
+    height: 420px;
+    width:480px;
+    margin-top: 50px;
+}
+.row{
+  
+  display:flex;
+   
+  margin: 25px 5px;
+  
+}
+ form input{
+    display: block;
+    width:200px;
+    height:10px;
+    margin:5px 12px;
+    padding-top: 10px;
+    border-radius: 5px;
+
+ }
+  #name{
+    width:300px;
+   
+ }
+#phone{
+    height:10px;
+   
+
+}
+input{
+    width:300px;
+}
+label{
+    margin-left: 20px;
+}
+.head h1{
+    margin-top: 150px;
+    text-align: center;
+}
+.book{
+   
+    justify-content: center;
+    margin-top: 50px;
+}
+.book button{
+    text-align: center;
+    font-size: 18px;
+    width:120px;
+    height:40px;
+    background-color:green;
+    font-weight:bold;
+   
+}
+
+.gps{
+    justify-content: center;
+    margin-top: 100px;
+   
+
+}
+.gps img{
+    width:100%;
+    height:650px;
+}
+
+.Box-container{
+    margin-top:100px;
+   background-image: url(images/footer\ image.jpg);
+    display: flex;
+    width:100%;
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+   
+    
+    
+}
+
+.box{
+    position: absolute;
+}
+.box p{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.box-content{
+    margin-left: 25px;
+    font-size: 19px;
+    
+}
+.link{
+  margin-inline: 130px;
+  
+}
+h4{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.menu-items{
+    margin-top: 10px;
+}
+.menu-items p{
+    font-size: 22px;
+}
+.category{
+   margin-left: -100px;
+}
+.footer{
+    margin-left: 50px;
+}
+.food-price{
+    margin-top: 20px;
+}
